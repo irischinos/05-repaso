@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Repaso</title>
+  </head>
+  <body>
+    <h1 id="subtitulo">Repaso HTML</h1>
+    <form><!---------- formulario --------->
+      <fieldset>
+        <legend>Datos</legend>
+        <div> <!-- nombre -->
+          <label for="nombre">Nombre</label> <!-- for y id se linkean con "nombre"-->
+          <input id="nombre" name="nombre" type="text" placeholder="Ingrese su nombre">
+          <!-- value="Entrar"-->
+        </div>
+        <div> <!-- apellido -->
+          <label for="apellido">Nombre</label> <!-- for y id se linkean con "nombre"-->
+          <input id="apellido" name="apellido" type="text" placeholder="Ingrese su apellido">
+          <!-- value="Entrar"-->
+        </div>
+        <div> <!-- comentario del usuario -->
+          <label for="comentario">Comentario</label>
+          <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+        </div>
+        <div> <!-- botón sugerido -->
+          <input type="submit" value="Enviar">
+        </div>
+      </fieldset>
+    </form>
+
+    <h2>Tablas</h2>
+    <table>
+
+      <thead>
+        <!-- colspan -->
+        <!-- rowspan -->
+        <tr>
+          <th>Cabecera</th>
+          <th>Cabecera</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>A</td>
+          <td>B</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>Pie</td>
+          <td>Pie</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <a href="servicios.html" target="_blank">Enlace</a>
+
+    <!-- inline - Elemento en línea -->
+    <a class="e-inline" href="servicios.html">Enlace inline</a>
+    <a class="e-inline" href="servicios.html">Enlace inline</a>
+
+    <!-- block - Elemento en bloque -->
+    <a class="e-block" href="servicios.html">Enlace block</a>
+    <a class="e-block" href="servicios.html">Enlace block</a>
+
+    <p id="bloque">Este es un párrafo</p>
+    <h1 id="bloque">Título</h1>
+    <h2 id="bloque">Subtítulo h2</h2>
+    <h3 id="bloque">Subtítulo h3</h3>
+    <div id="bloque">Este es un div</div>
+
+    <a href="servicios.html"><button>Hola</button></a>
+    <a href="servicios.html"><img src="https://olondriz.com/wp-content/uploads/2020/04/ambar-perrito-1-1024x899.jpg" alt="perrito" width="300"></a>
+    <a href="#subtitulo">Arriba</a>
+
+
+  </body>
+</html>

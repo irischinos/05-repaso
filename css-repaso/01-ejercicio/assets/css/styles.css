@@ -1,0 +1,37 @@
+/* ------ Estilos generales ------- */
+
+    body {
+      background-color: rgb(204, 198, 198);
+    }
+    h1 {
+      text-align: center;
+    }
+    img, p{
+      display: inline-block;
+    }
+    div {
+      padding: 10px 50px;
+    }
+    img {
+      height: 100px;
+      width: 100px;
+      position: absolute;
+    }
+    p {
+      text-indent: 20px;
+    }
+/* -------  Estilos y colores de letras -------*/
+
+    .rojo-italica {
+      color: red;
+      font-style: italic;
+    }
+    .lt-blanca {
+      color: white;
+    }
+    .bg-blanco-negrita {
+      background-color: white;
+    }
+    .bg-gris {
+      background-color: rgb(107, 98, 98);
+    }

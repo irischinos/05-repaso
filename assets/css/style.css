@@ -1,0 +1,24 @@
+table, tr, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 400px;
+}
+
+
+.e-inline {
+  background-color: rgb(210, 124, 231);
+}
+
+.e-block {
+  display: block;
+  background-color: yellowgreen;
+}
+
+/* con inline-block se volverían inline uno al lado de otro, y bloque */
+
+#bloque {
+  text-align: center;
+  background-color: rgb(205, 50, 76);
+}
